@@ -256,9 +256,9 @@
             </div>
             <div class="role brown-text text-darken-2">AI Developer</div>
             <ul>
-              <li>Applied AI models to enhance mobile and web applications as backend solutions.</li>
-              <li>I have experience with various app features like Background Removal, Colorization, Document Scanning, Virtual Try-on, and more, which are detailed in my portfolio.</li>
-              <li>Stayed updated with current trends and technologies to seamlessly integrate AI models, enhancing the functionality of various applications.</li>
+              <li>Developed and integrated the latest models into the backend of mobile and web applications, enhancing functionality with features such as Background Removal, Colorization, Document Scanning, Virtual Try-on, and Transcription as highlighted in my portfolio.</li>
+              <li>Stayed informed with the latest industry trends and emerging technologies, applying this knowledge to refine and advance features within diverse applications.</li>
+              <li>Collaborated with other team members to smoothly embed advanced functionalities, ensuring seamless user experiences in mobile applications.</li>
               <li><b>Tools:</b> Python, PyTorch, TensorFlow, YOLO, OpenCV, Keras, FastAPI, AWS, GCP</li>
             </ul>
           </div>
@@ -294,15 +294,10 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b>  YOLO, TensorFlow, Flask, Tkinter, VS code, Colab, Roboflow, labelimg </li>
-                  <li><b>Web-Based Weed Detection:</b> Developed a web app for AI-powered weed classification.</li>
-                  <li><b>Robotic Car Integration:</b> Integrated weed detection with a laser-equipped robotic car prototype.</li>
-                  <li><b>Efficient Weed Elimination:</b> Enabled precision weed elimination, reducing herbicide use.</li>
-                  <li><b>Automation and Sustainability:</b> Automated weed detection for eco-friendly agriculture.</li>
-                  <li><b>Enhanced Agricultural Productivity:</b> Improved crop yield through weed control.</li>
-                  <li><b>User-Friendly Control:</b>User interface for remote monitoring and control.</li>
-
-
+                  <li><b>Tools:</b>  YOLO-v5, TensorFlow, Flask, Tkinter, VS code, Colab, Roboflow, labelimg  </li>
+                  <li>Conducted interviews with farmers at the beginning of this project to compile a diverse dataset comprising four categories of weed. Implemented YOLO-v5 for real-time object detection, achieving precise identification of weeds in agricultural fields.</li>
+                  <li>Designed and built a robotic car prototype that uses a smartphone camera and DC motors to wirelessly stream live images to the YOLO-v5 model via FastAPI. demonstrated a cutting-edge method of precision farming by integrating an Arduino-controlled LED system with a matrix-based system to precisely locate and eliminate weeds that were detected.</li>
+                  <li>Created a website to showcase project insights, allowing users to engage with our trained YOLO-v5 model and evaluate its effectiveness.  Data visualization was used, highlighting the project's technological innovation and potential for sustainable agricultural practices. This included overall and daily weed detection percentages.</li>
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/muhammadnaeem27/WeedBot_Agricultural_Weed_Detection"
@@ -319,22 +314,20 @@
                 <img alt="Background (Remove or Change)" src="./assets/img/bg.gif" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Background (Remove or Change)<i
+                <span class="card-title activator teal-text hoverline">Portrait Background Remover<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Remove and Change the background of Object in an image
+                  Remove the background in portrait image
                 </p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Background Manipulation:</b>  Easily remove or replace image backgrounds.</li>
-                  <li><b>Precision and Quality:</b> Ensure accurate object isolation and enhanced image quality.</li>
-                  <li><b>User-Friendly Interface:</b> Intuitive application for efficient background editing. </li>
-                  <li><b>Use:</b> Suitable for diverse scenarios, from product photography to creative design.</li>
-
-
+                  <li><b>Tools:</b>Python, PyTorch, U-Net, NumPy, Scikit-Learn, OpenCV</li>
+                  <li>Using U-Net structures for both rough and detailed portrait segmentation, an intelligent two-segment Portrait Matting Model was used to address the problem of subject isolation in images.</li>
+                  <li>The model's resolution limitations (below 2000x2000) and possible biases in the small amount of training data were acknowledged. Used the internet and publicly available datasets like COCO to find examples of portrait photos.</li>
+   
                 </ul>
                 <div class="card-action">
 
@@ -352,7 +345,7 @@
                 <span class="card-title activator teal-text hoverline">Colorize Gray-scale Image<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Developed a program for automatic colorization of grayscale images.
+                  Program for automatic colorization of grayscale images.
                 </p>
               </div>
               <div class="card-reveal">
@@ -361,9 +354,9 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Python, PyTorch, Tensorflow,FastAPI, Colab, VS code</code></li>
-                  <li>Automated Colorization: Created a program for instant colorization of grayscale images.</li>
-                  <li>Efficiency & Quality: Employs advanced algorithms for speedy, high-quality colorization.</li>
-                  <li>Historical Restoration: Preserves and revitalizes historical visuals by adding color to black and white imagery.</li>
+                  <li>Included two time-scale update rules, self-attention GANs, and inflection points for effective and error-free coloring.</li>
+                  <li>The U-Net architecture, which includes model-specific backbone choices (resnet34/resnet101), was utilized. It included spectral normalization and self-attention.</li>
+                  <li>For realistic colorization free of artefacts, Perceptual Loss based on VGG16 was implemented during NoGAN learning.</li>
                 </ul>
                 <div class="card-action">
 
@@ -380,22 +373,20 @@
                 style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Auto-Generated Meeting Reports with AI Scrum<i
+                <span class="card-title activator teal-text hoverline">Teacher Assistant<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Implemented an AI-driven Scrum tool for automated meeting report generation.
+                  A Scrum tool to automate the generation of reports, assignments, quizzes, and question papers in the context of lectures.
                 </p>
               </div>
               <div class="card-reveal">
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, Azure, GPT, </li>
-                  <li><b>Live Meeting Transcription:</b> Do live Transcription of Meeting </li>
-                  <li><b>Distinguish Speakers:</b> Differenciate between Speakers using Voice Recognition </li>
-                  <li><b>Report Generation:</b> Generate Detailed Report at the end of Meeting </li>
-                  <li><b>Email Report:</b> Send report to each member in Meeting </li>
-
+                  <li><b>Tools:</b> Python, Azure Speech Studio, GPT, PyAudio, Pyannote-Audio, Customtkinter, Firebase database, Firebase Authentication</li>
+                  <li>Developed a transcription program utilizing PyAudio and Pyannote-Audio packages, ensuring precise speaker segmentation during the transcription process for both live audio streams and pre-recorded .wav files.</li>
+                  <li>Used Customtkinter python package to create a simple educational interface that made it easier to add subjects, view lecture reports, and create assignments and quizzes based on lectures. </li>
+                  <li>Firebase's secure cloud functionality was integrated, guaranteeing data security, and enabling features like email lecture report distribution to students for improved accessibility. </li>
 
                 </ul>
                 <div class="card-action">
@@ -422,9 +413,9 @@
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, OpenCV, PyTorch, TensorFlow, FastAPI</li>
-                  <li><b>Scanning:</b> Effortlessly scan, dewarp, and structure documents with automatic image correction and easy organization.</li>
-                  <li><b>Make Document:</b> Create Pdf of your scanned images</li>
+                  <li><b>Tools:</b> Python, OpenCV, PyTorch, Fast API, Colab, VS code</li>
+                  <li>Led the creation of a Document Scanner with a Geometric Unwarping Transformer, using advanced algorithms from the Doc3D dataset for accurate geometric unwrapping of document images.</li>
+                  <li>Using DocProj dataset, the Illumination Correction Transformer was able to resolve illumination problems during document scanning, which improved the quality of the images.</li>
                 </ul>
                 <div class="card-action">
 
@@ -450,10 +441,9 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, PyTorch, TensorFlow, FastAPI</li>
-                  <li><b>Replacement:</b> Effortlessly swap the background skies in your images with reference sky images to enhance visual appeal and creativity.</li>
-
-
+                  <li><b>Tools:</b> Python, PyTorch, UNET, Fast API, Colab, VS code</li>
+                  <li>Sky Changer model consists of three main components: sky-changing (Multiband blender), high-res processing (UNET), and low-res processing (hrnet-ocr).</li>
+                  <li>Enhanced segmentation in the low-res module by using ASPP. The learnable parameter high-resolution module performed better than the direct up sampling method. Using a Multiband blender, the sky-changing module effectively replaced the skies.</li>
                 </ul>
                 <div class="card-action">
 
@@ -479,10 +469,10 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, PyTorch, TensorFlow, FastAPI</li>
-                  <li><b>AI Art Creation:</b> Utilized Diffusion Models to power an AI Art Generator, capable of producing sophisticated, high-quality images.</li>
- 
-
+                  <li>Python, PyTorch, Hugging Face, Stable Diffusion, Fast API, Colab, VS code.</li>
+                  <li>Implemented the Stable Diffusion model to implement a cutting-edge text-to-image generating project, making use of the Stable Diffusion pipeline to achieve the best possible results.</li>
+                  <li>Used fine-tuning method on Stable Diffusion model to produce high-quality images customized for specific objects.</li>
+                  <li>Using the Dreambooth technique, which trains on a small number of images of a subject or style, improved the text-to-image generation process' overall efficiency and creativity.</li>
                 </ul>
                 <div class="card-action">
 
@@ -509,8 +499,10 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, Dlib, PyTorch, TensorFlow, FastAPI</li>
-                  <li><b>Swapping Capability:</b>  The project allows users to seamlessly swap faces in images by selecting a "from_image" as the source face and a "to_image" as the target image where the face will be replaced.</li>
+                  <li><b>Tools:</b> Python, Dlib, PyTorch, face-recognition, TensorFlow, Fast API, Colab, VS code</li>
+                  <li>To ensure accurate and efficient face swapping, a model was implemented beforehand to ensure that the pose of the face in the source and target images were the same.</li>
+                  <li>Used a package named Dlib to precisely identify facial points in both images, ensuring that the features were perfectly aligned.</li>
+                  <li>Blended the faces together in a way to make sure the skin colors looked natural.</li>
 
                 </ul>
                 <div class="card-action">
@@ -526,10 +518,10 @@
                 <img alt="Talking Image" src="./assets/img/talkingimg.gif" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Talking Image<i
+                <span class="card-title activator teal-text hoverline">Image to Talking Portrait <i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Make an image moving and talking using reference image.
+                  Make talking portrait by using input image and reference audio.
                 </p>
               </div>
               <div class="card-reveal">
@@ -537,16 +529,13 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, Dlib, PyTorch, TensorFlow, FastAPI</li>
+                  <li><b>Tools:</b>Python, Dlib, face-recognition, PyTorch, ffmpeg, Dlib, Open-CV, Fast API, Colab, VS code</li>
 
-                  <li><b> Reference:</b> Utilize a reference video featuring speaking and moving subjects as the basis for creating animated images.</li>
+                  <li>Created talking videos by smoothly combining the lips and head movements of a reference video with a source image. Dlib was put into use for accurate facial landmark identification and expression simulation.</li>
 
-                  <li><b>Lip-Sync Technology:</b> Implement advanced lip-sync technology to synchronize the image's mouth movements with the speech in the reference video, achieving a lifelike talking effect.</li>
+                  <li>Used Wav2Lip-hq for increased realism to ensure precise lip movement synchronization between the source image and the reference video. ESRGAN was integrated to up-sample the output video, which improved the visual quality.</li>
                   
-                  <li><b>Image Animation:</b> Apply animation techniques to make the image move in a natural and fluid manner, closely replicating the actions in the reference video.</li>
-                    
-                  <li><b>Sound Integration:</b> Seamlessly integrate audio from the reference video into the talking image, ensuring a perfect match between the spoken words and the image's mouth movements.</li>  
-
+                  <li>Designed a pipeline that integrates synchronized audio from the reference video to create finalized video. Used ffmpeg and OpenCV to process and compile videos efficiently.</li>
                 </ul>
                 <div class="card-action">
 
